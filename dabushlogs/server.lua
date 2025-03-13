@@ -1,8 +1,8 @@
-local deathWebhook = "https://discord.com/api/webhooks/1349885217305006171/XCL8rYpDvJnyPMkm3sBzNYyuDxPkLfuHa6B9yiQGu-uyuAi0ek-6NB_dnPTeKNehd_pW"
-local joinLeaveWebhook = "https://discord.com/api/webhooks/1349885217305006171/XCL8rYpDvJnyPMkm3sBzNYyuDxPkLfuHa6B9yiQGu-uyuAi0ek-6NB_dnPTeKNehd_pW"
-local shootWebhook = "https://discord.com/api/webhooks/1349885217305006171/XCL8rYpDvJnyPMkm3sBzNYyuDxPkLfuHa6B9yiQGu-uyuAi0ek-6NB_dnPTeKNehd_pW"
-local commandWebhook = "https://discord.com/api/webhooks/1349885217305006171/XCL8rYpDvJnyPMkm3sBzNYyuDxPkLfuHa6B9yiQGu-uyuAi0ek-6NB_dnPTeKNehd_pW"
-local chatWebhook = "https://discord.com/api/webhooks/1349885217305006171/XCL8rYpDvJnyPMkm3sBzNYyuDxPkLfuHa6B9yiQGu-uyuAi0ek-6NB_dnPTeKNehd_pW"
+local deathWebhook = "YOUR_WEBHOOK"
+local joinLeaveWebhook = "YOUR_WEBHOOK"
+local shootWebhook = "YOUR_WEBHOOK"
+local commandWebhook = "YOUR_WEBHOOK"
+local chatWebhook = "YOUR_WEBHOOK"
 
 function sendLog(webhook, title, description, color)
     if webhook == "" then return end -- Prevent empty webhook calls
