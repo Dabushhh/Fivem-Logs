@@ -5,7 +5,7 @@ local commandWebhook = "YOUR_WEBHOOK"
 local chatWebhook = "YOUR_WEBHOOK"
 
 function sendLog(webhook, title, description, color)
-    if webhook == "" then return end -- Prevent empty webhook calls
+    if webhook == "" then return end 
     local connect = {
         {
             ["title"] = title,
